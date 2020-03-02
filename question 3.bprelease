@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bpr:release xmlns:bpr="http://www.blueprism.co.uk/product/release">
+    <bpr:name>question 3</bpr:name>
+    <bpr:release-notes />
+    <bpr:created>2020-03-02 21:18:54Z</bpr:created>
+    <bpr:package-id>18</bpr:package-id>
+    <bpr:package-name>question 3</bpr:package-name>
+    <bpr:user-created-by>admin</bpr:user-created-by>
+    <bpr:contents count="2">
+        <object id="4738144b-3d12-43f5-830e-bfc18312f383" name="BP Technical Test 3" xmlns="http://www.blueprism.co.uk/product/process"><process name="BP Technical Test 3" version="1.0" bpversion="6.7.0.18390" narrative="" byrefcollection="true" type="object" runmode="Exclusive"><appdef><element name="Application Root"><id>6ba79003-c984-4c84-b60b-60dde2a716e9</id><type>Application</type><basetype>Application</basetype><datatype>unknown</datatype><diagnose>False</diagnose></element></appdef><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view><preconditions /><endpoint narrative="" /><subsheet subsheetid="1641841b-7ebc-4ebc-8b70-8643d14235d9" type="CleanUp" published="True"><name>Clean Up</name><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view></subsheet><subsheet subsheetid="b25365a9-3c6c-4d37-a14d-af4707668654" type="Normal" published="True"><name>changelang</name><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view></subsheet><stage stageid="be5bce29-a2cb-46a1-a8f7-035b46170925" name="Start" type="Start"><loginhibit /><display x="15" y="-105" /><onsuccess>498ffc2d-6d67-4d15-b74f-03ff79afd5ac</onsuccess></stage><stage stageid="498ffc2d-6d67-4d15-b74f-03ff79afd5ac" name="End" type="End"><loginhibit /><display x="15" y="90" /></stage><stage stageid="1b67cc20-cefe-4e86-914a-48f7f31d950e" name="Stage1" type="ProcessInfo"><display x="-195" y="-105" w="150" h="90" /><references><reference>System.dll</reference><reference>System.Data.dll</reference><reference>System.Xml.dll</reference><reference>System.Drawing.dll</reference><reference>System.Threading.dll</reference><reference>System.Windows.Forms.dll</reference></references><imports><import>System</import><import>System.Drawing</import><import>System.Data</import><import>System.Threading.Tasks</import><import>System.Threading</import><import>System.Collections</import><import>System.Windows.Forms</import><import>System.ComponentModel</import><import>System.Collections.Generic</import></imports><language>csharp</language><globalcode><![CDATA[]]></globalcode><code><![CDATA[]]></code></stage><stage stageid="cd7e7234-8a08-4ddb-aad9-279896141b7b" name="Clean Up" type="SubSheetInfo"><subsheetid>1641841b-7ebc-4ebc-8b70-8643d14235d9</subsheetid><display x="-195" y="-105" w="150" h="90" /></stage><stage stageid="3897aa08-4f6f-4bbb-a9cf-257e65048f1e" name="Start" type="Start"><subsheetid>1641841b-7ebc-4ebc-8b70-8643d14235d9</subsheetid><loginhibit /><display x="15" y="-105" /><onsuccess>50da3870-3496-4fe8-8c9b-2705917b6cf7</onsuccess></stage><stage stageid="50da3870-3496-4fe8-8c9b-2705917b6cf7" name="End" type="End"><subsheetid>1641841b-7ebc-4ebc-8b70-8643d14235d9</subsheetid><loginhibit /><display x="15" y="90" /></stage><stage stageid="ceec2753-97b6-4800-b12b-fe5c4e1de3f5" name="changelang" type="SubSheetInfo"><subsheetid>b25365a9-3c6c-4d37-a14d-af4707668654</subsheetid><display x="-195" y="-105" w="150" h="90" /></stage><stage stageid="d8fd345b-15b0-4ef0-90f2-34e6a6c7d625" name="Start" type="Start"><subsheetid>b25365a9-3c6c-4d37-a14d-af4707668654</subsheetid><loginhibit /><display x="15" y="-105" /><inputs><input type="text" name="Requested_Language" stage="Requested_Language" /></inputs><onsuccess>0a3f31f6-4d6e-4097-9237-1452e052a78d</onsuccess></stage><stage stageid="cdd09b17-8365-4fb9-b1d5-7d555441b9d8" name="End" type="End"><subsheetid>b25365a9-3c6c-4d37-a14d-af4707668654</subsheetid><loginhibit /><display x="15" y="90" /></stage><stage stageid="e7187326-ca80-4321-9505-7417801d5c59" name="Note1" type="Note"><subsheetid>1641841b-7ebc-4ebc-8b70-8643d14235d9</subsheetid><narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative><display x="-180" y="60" w="180" h="230" /></stage><stage stageid="3ffe57f0-9fdc-452f-b407-24f2002bb148" name="Note2" type="Note"><narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative><display x="-180" y="60" w="180" h="230" /></stage><stage stageid="0a3f31f6-4d6e-4097-9237-1452e052a78d" name="Code1" type="Code"><subsheetid>b25365a9-3c6c-4d37-a14d-af4707668654</subsheetid><loginhibit /><display x="15" y="-15" /><inputs><input type="text" name="Requested_Language" expr="[Requested_Language]" /></inputs><onsuccess>cdd09b17-8365-4fb9-b1d5-7d555441b9d8</onsuccess><code><![CDATA[            string ukin = "English (United Kingdom)";
+            string uk = "en-GB";
+            string usin = "English (United States)";
+            string us = "en-US";
+            string setlang = "";
+            
+            var ukculture = System.Globalization.CultureInfo.GetCultureInfo(uk);
+            var usculture = System.Globalization.CultureInfo.GetCultureInfo(us);
+            var uslanguage = InputLanguage.FromCulture(usculture);
+            var uklanguage = InputLanguage.FromCulture(ukculture);
+
+            InputLanguage original = InputLanguage.CurrentInputLanguage;
+
+            if (Requested_Language == ukin)
+            {
+
+                setlang = uk;
+
+                if (original.Culture.ToString() != setlang)
+                {
+
+                    InputLanguage.CurrentInputLanguage = uklanguage;
+                    //Application.Exit();
+                }
+
+            }
+
+            if (Requested_Language == usin)
+            {
+
+                setlang = us;
+
+                if (original.Culture.ToString() != setlang)
+                {
+
+                    InputLanguage.CurrentInputLanguage = uslanguage;
+                    //Application.Exit();
+                }
+
+            }]]></code></stage><stage stageid="610ad8ed-831a-4f48-a2df-4115db6c7ca8" name="Requested_Language" type="Data"><subsheetid>b25365a9-3c6c-4d37-a14d-af4707668654</subsheetid><display x="-150" y="-30" /><datatype>text</datatype><initialvalue xml:space="preserve">English (United States)</initialvalue><private /><alwaysinit /></stage></process></object>
+        <object-group id="0eb74ecd-c707-4382-8c39-194364858e59" name="Default" isDefaultGroup="True" xmlns="http://www.blueprism.co.uk/product/object-group">
+            <members>
+                <object id="4738144b-3d12-43f5-830e-bfc18312f383" />
+            </members>
+        </object-group>
+    </bpr:contents>
+</bpr:release>

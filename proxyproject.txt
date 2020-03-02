@@ -1,0 +1,22 @@
+WebProxy proxyObject = new WebProxy("http://proxyserver:80/",true);
+WebRequest req = WebRequest.Create("http://www.contoso.com");
+req.Proxy = proxyObject;
+
+
+host = Dns.GetHostEntry(Dns.GetHostName())
+
+
+
+
+ip address
+new proxy url
+old proxy url
+
+
+read the current proxy to a variable
+read the requested proxy to a variable
+read the current ip address
+
+
+
+
