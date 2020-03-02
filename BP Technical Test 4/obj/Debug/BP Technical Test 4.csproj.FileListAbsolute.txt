@@ -1,0 +1,6 @@
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\obj\Debug\BP Technical Test 4.csprojAssemblyReference.cache
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\bin\Debug\BP Technical Test 4.exe.config
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\bin\Debug\BP Technical Test 4.exe
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\bin\Debug\BP Technical Test 4.pdb
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\obj\Debug\BP Technical Test 4.exe
+C:\Users\Mike Argo\source\repos\BP Technical Test 4\obj\Debug\BP Technical Test 4.pdb
