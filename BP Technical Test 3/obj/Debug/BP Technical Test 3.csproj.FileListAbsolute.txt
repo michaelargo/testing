@@ -1,0 +1,9 @@
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP Technical Test 3.csprojAssemblyReference.cache
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP_Technical_Test_3.Form1.resources
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP_Technical_Test_3.Properties.Resources.resources
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP Technical Test 3.csproj.GenerateResource.cache
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\bin\Debug\BP Technical Test 3.exe.config
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\bin\Debug\BP Technical Test 3.exe
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\bin\Debug\BP Technical Test 3.pdb
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP Technical Test 3.exe
+C:\Users\Mike Argo\source\repos\BP Technical Test 3\obj\Debug\BP Technical Test 3.pdb
